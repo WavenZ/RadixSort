@@ -115,6 +115,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="RadixSort.c" />
+    <ClCompile Include="RadixSort_main.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="RadixSort.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
